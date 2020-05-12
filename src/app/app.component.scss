@@ -1,0 +1,56 @@
+header {
+    background-color: #000000;
+    padding: 10px;
+    text-align: center;
+    font-size: 12px;
+    color: #FFA500;
+  }
+  nav {
+    float: left;
+    width: 30%;
+    height: 300px; /* only for demonstration, should be removed */
+    background:black;
+    padding: 20px;
+  }
+  input[type=text] {
+    float: right;
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background-color: black;
+    font-size: 17px;
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  .dropbtn {
+    background-color: black;
+    color:#FFA500;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  .nav{
+    border-width:1px 0;
+    list-style:none;
+    padding:0;
+    text-align:center;
+    width: 100%;
+	float: left;
+	margin: 0 0 1em 0;
+	background-color: black;
+}
+
+.nav li{
+    display:inline;
+}
+.nav a{
+    display:inline-block;
+    padding:25px;
+    color:#FFA500 ;
+}
+h1{
+  color:#FFA500  ;
+}

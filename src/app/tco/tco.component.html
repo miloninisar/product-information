@@ -1,0 +1,76 @@
+<html>
+<body>
+  <section>
+        <div class="left-half">
+          <center><img src="./assets/pasta.jpg"></center>
+          <h3>DUTY AND CODES</h3>
+          <div>
+            <table>
+              <thead>
+                <tr>
+                  <th>CODE</th>
+                  <th>COUNTRY</th>
+                  <th>CURRENCY</th>
+                  <th>RATE</th>
+                </tr>
+              </thead>
+              <tr>
+                <td>8438.90.10</td>
+                <td>AUTRALIA</td>
+                <td>AUD</td>
+                <td>5%</td>
+              </tr>
+            </table>
+            <h3>RULING AND RESTRICTIONS</h3>
+            <input type="text" placeholder="Search.."><br>
+            <a>SECOND HAND VEHICLE OPTION</a>
+            
+          </div>
+          
+        </div>
+
+        <div class="right-half">
+          <article>
+            <h1>DESCRIPTION</h1>
+            <p>Pasta Maker- Traditional pasta roller lets you make the freshest pasta you've ever tasted right at home.Pasta Machine- Made of heavy duty, shiny chromed plated steel 6-inch wide roller with double cutter head that makes thin spaghetti and wide fettucini noodles.Easy-lock adjustment dial with wood grip handle easily cranks out the dough.Made in Italy by Imperia- Additional attachments for a variety of noodle shapes available separately</p>
+          </article>
+          <div >
+            <table>
+              <thead>
+                <tr>
+                    <th>TARRIF</th>
+                    <th>COUNTRY OF ORIGIN</th>
+                    <th>CATEGORY</th>
+                </tr>
+                </thead>
+              <tr *ngFor="let item of tcoitems">
+                <td>{{item.HarmonizedCode}}</td>
+                <td>AMERICA</td>
+                <td>SECTION 17</td>
+              </tr>
+            </table>
+          <br>
+          <h1>TCO DETAILS</h1>
+          <hr>
+          <table>
+            <thead>
+              <tr>
+                  <th>REFERENCE NUMBER</th>
+                  <th>HARMONIZED CODE</th>
+                  <th>OPERATIVE DATE</th>
+                  <th>DECISION DATE</th>
+              </tr>
+              </thead>
+            <tr *ngFor="let item of tcoitems">
+              <td>{{item.ReferenceNumber}}</td>
+              <td>{{item.HarmonizedCode}}</td>
+              <td>{{item.OperativeDate}}</td>
+              <td>{{item.DecisionDate}}</td>
+            </tr>
+          </table>
+          </div>
+        </div>
+  </section>
+  
+ </body>
+</html>

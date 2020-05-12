@@ -1,0 +1,64 @@
+/* Pen-specific styles */
+* {
+    box-sizing: border-box;
+  }
+  body {
+    background-color: white;
+  }
+  h1{
+      color:black;
+      text-align: left;
+  }
+  h3{
+    background-color: white;
+      color:#FFA500  ;
+      text-align: left;
+  }
+  a{
+      color:black;
+      background-color: white;
+      width: 100%;
+  }
+  p{
+    color: black;
+    text-align: left;
+}
+  
+img{
+    align-content: center;
+}
+  
+  div {
+    height: 100%;
+    color: black;
+
+  }
+  table{
+      color: black;
+  }
+  td,tr{
+      color: black;
+      text-align: center;
+  }
+  
+  .left-half {
+    background-color:white;
+    position: absolute;
+    left: 0px;
+    width: 50%;
+    height: 100%;
+  }
+  
+  .right-half {
+    background-color:white;
+    position: absolute;
+    right: 0px;
+    width: 50%;
+    height: 100%;
+  }
+  th{
+      padding: 25px;
+  }
+  input[type=text]{
+    float: right;
+  }
